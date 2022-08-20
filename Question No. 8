@@ -1,0 +1,20 @@
+        function prime1(number){
+        //var number = +prompt("enter any number ")
+        var isprime=true;
+        if (number===1)
+          {
+            console.log("1 is not a prime number")
+          }
+        else if(number>1){  
+        for (var i=2;i<number;i++)
+        {
+                if (number%i===0)
+                    isprime=false
+                    break;
+        }
+
+        if (isprime===false){
+          console.log("Its not a prime number");
+        }
+        else(console.log("Its prime number"));
+      }
