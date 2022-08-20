@@ -1,0 +1,14 @@
+//   Question 01:  Write a JavaScript function that reverse a number.
+
+
+function reverse1(numreverse){
+  //var numreverse =prompt("Enter any number")
+  var corrnumber = "";
+  var reslt="";
+  for(var i=numreverse.length-1;i>=0;i--){
+    corrnumber = numreverse.indexOf(i);
+    reslt = reslt+numreverse.charAt(i);
+
+  }
+  console.log(reslt);
+}
