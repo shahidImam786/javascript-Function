@@ -1,0 +1,10 @@
+//   Question 04:  Write a JavaScript function that returns a passed
+//                 string with letters in alphabetical order. 
+      
+       function alphaletter(a){
+         var b = []
+         var b =a.split("").sort().join("")
+
+        
+         console.log(b)
+       }
