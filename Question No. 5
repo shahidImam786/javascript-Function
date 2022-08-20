@@ -1,0 +1,15 @@
+//   QUESTION NO. 5: write a javaScript function that accepts a string as a parameter
+//      and convert the first letter of each word of the string in upper case
+
+
+       function uppercase1(a){
+           var array1 =[]
+           var array1 = a.split(" ");
+           var up2 = "";
+           for (var i=0;i<array1.length;i++){
+             var up = array1[i]
+             var up1 = up.charAt(0).toUpperCase(); 
+              up2+= " "+ up1 + up.slice(1);
+           }
+           console.log(up2);
+         }
