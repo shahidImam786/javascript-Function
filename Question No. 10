@@ -1,0 +1,12 @@
+
+//   Question No 10:  Write a JavaScript function which will take an array of numbers stored and
+//                  find the second lowest and second greatest numbers, respectively.
+
+function second1(a) {
+  var ary = a.sort(function (a, b) {
+    return a - b;
+  });
+  console.log(ary);
+  console.log(ary[1]);
+  console.log(ary[ary.length - 2]);
+}
