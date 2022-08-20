@@ -1,0 +1,21 @@
+
+// Quetion No 02:  Write a JavaScript function that checks whether a 
+//                 passed string is palindrome or not?
+
+
+
+      function palindrom1(numreverse){
+      var corrnumber = "";
+      var reslt="";
+      for(var i=numreverse.length-1;i>=0;i--){
+        corrnumber = numreverse.indexOf(i);
+        reslt = reslt+numreverse.charAt(i);
+
+      }
+      if(numreverse===reslt){
+        console.log("Absolutelt Right "+reslt);
+
+      }
+      else
+        console.log("Wrong String "+reslt);
+    }
