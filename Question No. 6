@@ -1,0 +1,21 @@
+      // Question No 06: Write a JavaScript function that accepts a string
+      //  as a parameter and find the longest word within the string.
+
+
+
+       function longestword(a){
+          var arry1=[];
+          var cnt1 = 0
+         var arry1 = a.split(" ");
+         for(var i = 0;i<arry1.length;i++){
+              
+               if (arry1[i].length>cnt1){
+                 cnt1=arry1[i].length;
+                 var name=arry1[i]
+               }
+         }
+
+         console.log(arry1)
+         console.log(cnt1)
+         console.log(name);
+       }
