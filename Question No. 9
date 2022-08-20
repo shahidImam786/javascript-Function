@@ -1,0 +1,26 @@
+//  Question No 09:  Write a JavaScript function which accepts an 
+//                    argument and returns the type. 
+
+         function Typeof(name){
+          
+           var returntype = typeof(name);
+           if (returntype ==="number") {
+             console.log("its type is number")
+           }
+           else if (returntype=== "string"){
+             console.log("its type is string")
+           }
+           else if (returntype=== "boolean" ){
+             console.log("its type is Boolean")
+           }
+           else if (returntype === "undefined" ){
+             console.log("its type is Undefined")
+           }
+           else if (returntype === "function" ){
+             console.log("its type is function")
+           }
+           else if (returntype === "Object" ){
+             console.log("its type is object")
+           }
+
+         }
